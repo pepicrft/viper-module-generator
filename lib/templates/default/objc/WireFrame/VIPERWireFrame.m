@@ -1,6 +1,6 @@
 //
-// Created by Pedro Piñera Buendía on 2014.
-// Copyright (c) 2014 Redbooth. All rights reserved.
+// Created by AUTHOR
+// Copyright (c) YEAR AUTHOR. All rights reserved.
 //
 
 #import "VIPERWireFrame.h"
@@ -10,21 +10,22 @@
 + (void)presentVIPERModuleFrom:(UIViewController*)fromViewController
 {
     // Generating module components
-    UIViewController <VIPERViewProtocol> *viewController = [[VIPERViewController alloc] init];
+    id <VIPERViewProtocol> view = [[VIPERView alloc] init];
     id <VIPERPresenterProtocol, VIPERInteractorOutputProtocol> presenter = [VIPERPresenter new];
-    id <VIPERInteractorInputProtocol, VIPERDataManagerOutputProtocol> interactor = [VIPERInteractor new];
-    id <VIPERDataManagerInputProtocol> dataManager = [VIPERDataManager new];
-    VIPERWireFrame *wireFrame = [VIPERWireFrame new];
+    id <VIPERInteractorInputProtocol> interactor = [VIPERInteractor new];
+    id <VIPERAPIDataManagerInputProtocol> APIDataManager = [VIPERAPIDataManager new];
+    id <VIPERLocalDataManagerInputProtocol> localDataManager = [VIPERLocalDataManager new];
+    id <VIPERWireFrameProtocol> wireFrame= [VIPERWireFrame new];
     
     // Connecting
-    viewController.presenter = presenter;
-    presenter.view = viewController;
+    view.presenter = presenter;
+    presenter.view = view;
     presenter.wireFrame = wireFrame;
     presenter.interactor = interactor;
     interactor.presenter = presenter;
-    interactor.dataManager = dataManager;
-    dataManager.interactor = interactor;
-
+    interactor.APIDataManager = APIDataManager;
+    interactor.localDataManager = localDataManager;
+    
     //TOODO - New view controller presentation (present, push, pop, .. )
 }
 

@@ -1,16 +1,16 @@
 //
-// Created by Pedro Piñera Buendía on 2014.
-// Copyright (c) 2014 Redbooth. All rights reserved.
+// Created by AUTHOR
+// Copyright (c) YEAR AUTHOR. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "VIPERProtocols.h"
 
 
-@interface VIPERInteractor : NSObject <VIPERInteractorInputProtocol, VIPERDataManagerOutputProtocol>
+@interface VIPERInteractor : NSObject <VIPERInteractorInputProtocol>
 
-// Properties
 @property (nonatomic, weak) id <VIPERInteractorOutputProtocol> presenter;
-@property (nonatomic, strong) id <VIPERDataManagerInputProtocol> dataManager;
+@property (nonatomic, strong) id <VIPERAPIDataManagerInputProtocol> APIDataManager;
+@property (nonatomic, strong) id <VIPERLocalDataManagerInputProtocol> localDataManager;
 
 @end

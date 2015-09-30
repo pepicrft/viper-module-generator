@@ -1,6 +1,6 @@
 //
-// Created by Pedro Piñera Buendía on 2014.
-// Copyright (c) 2014 Redbooth. All rights reserved.
+// Created by AUTHOR
+// Copyright (c) YEAR AUTHOR. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -10,9 +10,8 @@
 
 @interface VIPERPresenter : NSObject <VIPERPresenterProtocol, VIPERInteractorOutputProtocol>
 
-// Properties
 @property (nonatomic, weak) id <VIPERViewProtocol> view;
 @property (nonatomic, strong) id <VIPERInteractorInputProtocol> interactor;
-@property (nonatomic, strong) VIPERWireFrame *wireFrame;
+@property (nonatomic, strong) id <VIPERWireFrameProtocol> wireFrame;
 
 @end
