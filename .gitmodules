@@ -1,6 +1,0 @@
-[submodule "VIPERGenDemo/VIPERGenDemo/Libraries/hanekeswift"]
-	path = VIPERGenDemo/VIPERGenDemo/Libraries/hanekeswift
-	url = https://github.com/Haneke/HanekeSwift.git
-[submodule "VIPERGenDemo/VIPERGenDemo/Libraries/sugarrecord"]
-	path = VIPERGenDemo/VIPERGenDemo/Libraries/sugarrecord
-	url = https://github.com/SugarRecord/SugarRecord.git

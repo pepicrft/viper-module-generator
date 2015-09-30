@@ -7,120 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D12551D1A1440D800AB6B6F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D12551B1A1440D800AB6B6F /* Model.xcdatamodeld */; };
-		3D23E2AF1A0F6A5800C9C1CA /* String+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D23E2AE1A0F6A5800C9C1CA /* String+Extras.swift */; };
-		3D2635741A11368000EC40F3 /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D26356A1A11367400EC40F3 /* Haneke.framework */; };
-		3D64BB021A12AE990001D665 /* TwitterLoginItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64BB011A12AE990001D665 /* TwitterLoginItem.swift */; };
-		3D64BB0C1A12B0E50001D665 /* TwitterAccountManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64BB0B1A12B0E50001D665 /* TwitterAccountManagerProtocol.swift */; };
-		3D66657A1A12CD260012B6DD /* LocalServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6665791A12CD260012B6DD /* LocalServices.swift */; };
-		3D66A0221A10AA1C009484AA /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66A0211A10AA1C009484AA /* TwitterClient.swift */; };
-		3D66A0241A10AA45009484AA /* TwitterAccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66A0231A10AA45009484AA /* TwitterAccountManager.swift */; };
-		3D6D4C121A0F912000B9125C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6D4C111A0F912000B9125C /* Social.framework */; };
-		3D6D4C141A0F912700B9125C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6D4C131A0F912700B9125C /* Accounts.framework */; };
-		3D95C75B1A0C27D800F08E39 /* login_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D95C75A1A0C27D800F08E39 /* login_background.jpg */; };
-		3D95C75D1A0C2EF100F08E39 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D95C75C1A0C2EF100F08E39 /* AVFoundation.framework */; };
-		3D95C7621A0C310600F08E39 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3D95C7611A0C310600F08E39 /* video.mp4 */; };
-		3D95C7641A0C387B00F08E39 /* twitter_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D95C7631A0C387B00F08E39 /* twitter_logo.png */; };
-		3DAEB0481A0C4A6E00AC1184 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEB0451A0C4A6E00AC1184 /* ProgressHUD.bundle */; };
-		3DAEB0491A0C4A6E00AC1184 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEB0471A0C4A6E00AC1184 /* ProgressHUD.m */; };
-		3DB126681A14AE8A00C5E9D2 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB126671A14AE8A00C5E9D2 /* Tweet.swift */; };
-		3DB776C71A0C132400114CD3 /* SugarRecordContextProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB776B51A0C132400114CD3 /* SugarRecordContextProtocol.swift */; };
-		3DB776C91A0C132400114CD3 /* SugarRecordObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB776B61A0C132400114CD3 /* SugarRecordObjectProtocol.swift */; };
-		3DB776CB1A0C132400114CD3 /* SugarRecordStackProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB776B71A0C132400114CD3 /* SugarRecordStackProtocol.swift */; };
-		3DB776CD1A0C132400114CD3 /* SugarRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB776B81A0C132400114CD3 /* SugarRecord.swift */; };
-		3DB776CF1A0C132400114CD3 /* SugarRecordFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB776B91A0C132400114CD3 /* SugarRecordFinder.swift */; };
-		3DB776D11A0C132400114CD3 /* SugarRecordLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB776BA1A0C132400114CD3 /* SugarRecordLogger.swift */; };
-		3DB776D31A0C132400114CD3 /* DefaultCDStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB776BC1A0C132400114CD3 /* DefaultCDStack.swift */; };
-		3DB776D51A0C132400114CD3 /* iCloudCDStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB776BD1A0C132400114CD3 /* iCloudCDStack.swift */; };
-		3DB776D71A0C132400114CD3 /* NSManagedObject+SugarRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB776BE1A0C132400114CD3 /* NSManagedObject+SugarRecord.swift */; };
-		3DB776DB1A0C132400114CD3 /* SugarRecordCDContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB776C01A0C132400114CD3 /* SugarRecordCDContext.swift */; };
-		3DB776DD1A0C132400114CD3 /* SugarRecordFinder+FetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB776C11A0C132400114CD3 /* SugarRecordFinder+FetchedResultsController.swift */; };
-		3DB776E81A0C133A00114CD3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB776E71A0C133A00114CD3 /* CoreData.framework */; };
-		3DB776EA1A0C134000114CD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB776E91A0C134000114CD3 /* Foundation.framework */; };
-		3DB777491A0C154800114CD3 /* TwitterListAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB777291A0C154800114CD3 /* TwitterListAPIDataManager.swift */; };
-		3DB7774A1A0C154800114CD3 /* TwitterListLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7772B1A0C154800114CD3 /* TwitterListLocalDataManager.swift */; };
-		3DB7774B1A0C154800114CD3 /* TwitterListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7772D1A0C154800114CD3 /* TwitterListInteractor.swift */; };
-		3DB7774C1A0C154800114CD3 /* TwitterListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7772E1A0C154800114CD3 /* TwitterListItem.swift */; };
-		3DB7774D1A0C154800114CD3 /* TwitterListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB777301A0C154800114CD3 /* TwitterListPresenter.swift */; };
-		3DB7774E1A0C154800114CD3 /* TwitterListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB777321A0C154800114CD3 /* TwitterListProtocols.swift */; };
-		3DB7774F1A0C154800114CD3 /* TwitterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB777341A0C154800114CD3 /* TwitterListView.swift */; };
-		3DB777501A0C154800114CD3 /* TwitterListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB777361A0C154800114CD3 /* TwitterListWireFrame.swift */; };
-		3DB777511A0C154800114CD3 /* TwitterLoginAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7773A1A0C154800114CD3 /* TwitterLoginAPIDataManager.swift */; };
-		3DB777521A0C154800114CD3 /* TwitterLoginLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7773C1A0C154800114CD3 /* TwitterLoginLocalDataManager.swift */; };
-		3DB777531A0C154800114CD3 /* TwitterLoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7773E1A0C154800114CD3 /* TwitterLoginInteractor.swift */; };
-		3DB777551A0C154800114CD3 /* TwitterLoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB777411A0C154800114CD3 /* TwitterLoginPresenter.swift */; };
-		3DB777561A0C154800114CD3 /* TwitterLoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB777431A0C154800114CD3 /* TwitterLoginProtocols.swift */; };
-		3DB777571A0C154800114CD3 /* TwitterLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB777451A0C154800114CD3 /* TwitterLoginView.swift */; };
-		3DB777581A0C154800114CD3 /* TwitterLoginWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB777471A0C154800114CD3 /* TwitterLoginWireFrame.swift */; };
-		3DBE4D091A0F8011002ED525 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBE4D021A0F8005002ED525 /* SwifteriOS.framework */; };
-		3DE115181A0C11CC00F94C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE1150E1A0C11CC00F94C43 /* AppDelegate.swift */; };
-		3DE115191A0C11CC00F94C43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE115111A0C11CC00F94C43 /* Images.xcassets */; };
-		3DE9BEE01A15201D00439AB1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE9BEDF1A15201D00439AB1 /* Constants.swift */; };
-		3DFA31811A1089FC00A60CF9 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA31801A1089FC00A60CF9 /* TweetCell.swift */; };
-		3DFA31831A109BF800A60CF9 /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA31821A109BF800A60CF9 /* Stylesheet.swift */; };
-		3DFA31851A109DD200A60CF9 /* TWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA31841A109DD200A60CF9 /* TWNavigationController.swift */; };
-		3DFA31871A109E1F00A60CF9 /* TWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA31861A109E1F00A60CF9 /* TWViewController.swift */; };
-		3DFA318A1A10A1F700A60CF9 /* streamline-24px.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DFA31891A10A1F700A60CF9 /* streamline-24px.ttf */; };
-		B703478269277AEC17547CCE /* libPods-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B64AD42CA342B5FCF7CA8A9E /* libPods-app.a */; };
+		3D056C7D19A7881100902567 /* VIPERProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D056C7C19A7881100902567 /* VIPERProtocols.swift */; };
+		B749E4728976F7088B32116F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B749EA3AB3A2A76ABF088898 /* Images.xcassets */; };
+		B749E7DEA40F5EE82C43C1FA /* VIPERGenDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B749EA23C32AF122803CC13F /* VIPERGenDemoTests.swift */; };
+		B749EAC79D1784014A2BDCCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B749E008AA7BF4ECBADA4151 /* Main.storyboard */; };
+		B749EBF8B846719B7113AA45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B749EEC0EE96E7878C16C7D3 /* AppDelegate.swift */; };
+		B749EDF5EBFE639D631AEC38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B749E8E7BDEC9D7FB43DCCCD /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3D2635691A11367400EC40F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D2635621A11367400EC40F3 /* Haneke.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A095C9561980418C00CD0F4C;
-			remoteInfo = Haneke;
-		};
-		3D26356B1A11367400EC40F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D2635621A11367400EC40F3 /* Haneke.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A095C9611980418C00CD0F4C;
-			remoteInfo = HanekeTests;
-		};
-		3D26356D1A11367400EC40F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D2635621A11367400EC40F3 /* Haneke.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A0026E9A19C9BFBC004DE0C6;
-			remoteInfo = HanekeDemo;
-		};
-		3DBE4CFF1A0F8005002ED525 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3DBE4CF71A0F8004002ED525 /* Swifter.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
-			remoteInfo = SwifterDemoiOS;
-		};
-		3DBE4D011A0F8005002ED525 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3DBE4CF71A0F8004002ED525 /* Swifter.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
-			remoteInfo = SwifteriOS;
-		};
-		3DBE4D031A0F8005002ED525 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3DBE4CF71A0F8004002ED525 /* Swifter.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8B9F51131944A61D00894629;
-			remoteInfo = SwifterMac;
-		};
-		3DBE4D051A0F8005002ED525 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3DBE4CF71A0F8004002ED525 /* Swifter.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8B300C471944AECB00993175;
-			remoteInfo = SwifterDemoMac;
-		};
-		3DBE4D071A0F8005002ED525 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3DBE4CF71A0F8004002ED525 /* Swifter.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8B300C5A1944AECB00993175;
-			remoteInfo = SwifterDemoMacTests;
-		};
 		B749E414B5E155EC088AD89D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B749E8B9F6CA030919C0FE23 /* Project object */;
@@ -131,71 +26,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F3D928AB04B0148F550DDAD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D12551C1A1440D800AB6B6F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		3D23E2AE1A0F6A5800C9C1CA /* String+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Extras.swift"; path = "Others/String+Extras.swift"; sourceTree = "<group>"; };
-		3D2635621A11367400EC40F3 /* Haneke.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Haneke.xcodeproj; path = hanekeswift/Haneke.xcodeproj; sourceTree = "<group>"; };
-		3D64BB011A12AE990001D665 /* TwitterLoginItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginItem.swift; sourceTree = "<group>"; };
-		3D64BB0B1A12B0E50001D665 /* TwitterAccountManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAccountManagerProtocol.swift; sourceTree = "<group>"; };
-		3D6665791A12CD260012B6DD /* LocalServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalServices.swift; sourceTree = "<group>"; };
-		3D66A0211A10AA1C009484AA /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
-		3D66A0231A10AA45009484AA /* TwitterAccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAccountManager.swift; sourceTree = "<group>"; };
-		3D6D4C111A0F912000B9125C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		3D6D4C131A0F912700B9125C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
-		3D95C75A1A0C27D800F08E39 /* login_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_background.jpg; sourceTree = "<group>"; };
-		3D95C75C1A0C2EF100F08E39 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		3D95C7611A0C310600F08E39 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
-		3D95C7631A0C387B00F08E39 /* twitter_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_logo.png; sourceTree = "<group>"; };
-		3D9C7ADF1A0F81E600A37501 /* Pods-app.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-app/Pods-app.debug.xcconfig"; sourceTree = "<group>"; };
-		3D9C7AE01A0F81E600A37501 /* Pods-app.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-app/Pods-app.release.xcconfig"; sourceTree = "<group>"; };
-		3DAEB0451A0C4A6E00AC1184 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
-		3DAEB0461A0C4A6E00AC1184 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
-		3DAEB0471A0C4A6E00AC1184 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
-		3DB126671A14AE8A00C5E9D2 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tweet.swift; path = DataModel/Tweet.swift; sourceTree = "<group>"; };
-		3DB776B51A0C132400114CD3 /* SugarRecordContextProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugarRecordContextProtocol.swift; sourceTree = "<group>"; };
-		3DB776B61A0C132400114CD3 /* SugarRecordObjectProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugarRecordObjectProtocol.swift; sourceTree = "<group>"; };
-		3DB776B71A0C132400114CD3 /* SugarRecordStackProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugarRecordStackProtocol.swift; sourceTree = "<group>"; };
-		3DB776B81A0C132400114CD3 /* SugarRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugarRecord.swift; sourceTree = "<group>"; };
-		3DB776B91A0C132400114CD3 /* SugarRecordFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugarRecordFinder.swift; sourceTree = "<group>"; };
-		3DB776BA1A0C132400114CD3 /* SugarRecordLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugarRecordLogger.swift; sourceTree = "<group>"; };
-		3DB776BC1A0C132400114CD3 /* DefaultCDStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCDStack.swift; sourceTree = "<group>"; };
-		3DB776BD1A0C132400114CD3 /* iCloudCDStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCloudCDStack.swift; sourceTree = "<group>"; };
-		3DB776BE1A0C132400114CD3 /* NSManagedObject+SugarRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+SugarRecord.swift"; sourceTree = "<group>"; };
-		3DB776C01A0C132400114CD3 /* SugarRecordCDContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugarRecordCDContext.swift; sourceTree = "<group>"; };
-		3DB776C11A0C132400114CD3 /* SugarRecordFinder+FetchedResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SugarRecordFinder+FetchedResultsController.swift"; sourceTree = "<group>"; };
-		3DB776E71A0C133A00114CD3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		3DB776E91A0C134000114CD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3DB777211A0C151500114CD3 /* VIPERGenDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIPERGenDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		3DB777291A0C154800114CD3 /* TwitterListAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterListAPIDataManager.swift; sourceTree = "<group>"; };
-		3DB7772B1A0C154800114CD3 /* TwitterListLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterListLocalDataManager.swift; sourceTree = "<group>"; };
-		3DB7772D1A0C154800114CD3 /* TwitterListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterListInteractor.swift; sourceTree = "<group>"; };
-		3DB7772E1A0C154800114CD3 /* TwitterListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterListItem.swift; sourceTree = "<group>"; };
-		3DB777301A0C154800114CD3 /* TwitterListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterListPresenter.swift; sourceTree = "<group>"; };
-		3DB777321A0C154800114CD3 /* TwitterListProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterListProtocols.swift; sourceTree = "<group>"; };
-		3DB777341A0C154800114CD3 /* TwitterListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterListView.swift; sourceTree = "<group>"; };
-		3DB777361A0C154800114CD3 /* TwitterListWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterListWireFrame.swift; sourceTree = "<group>"; };
-		3DB7773A1A0C154800114CD3 /* TwitterLoginAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginAPIDataManager.swift; sourceTree = "<group>"; };
-		3DB7773C1A0C154800114CD3 /* TwitterLoginLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginLocalDataManager.swift; sourceTree = "<group>"; };
-		3DB7773E1A0C154800114CD3 /* TwitterLoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginInteractor.swift; sourceTree = "<group>"; };
-		3DB777411A0C154800114CD3 /* TwitterLoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginPresenter.swift; sourceTree = "<group>"; };
-		3DB777431A0C154800114CD3 /* TwitterLoginProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginProtocols.swift; sourceTree = "<group>"; };
-		3DB777451A0C154800114CD3 /* TwitterLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginView.swift; sourceTree = "<group>"; };
-		3DB777471A0C154800114CD3 /* TwitterLoginWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginWireFrame.swift; sourceTree = "<group>"; };
-		3DB777671A0C17C200114CD3 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
-		3DBE4CF71A0F8004002ED525 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
-		3DE1150E1A0C11CC00F94C43 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DE115111A0C11CC00F94C43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3DE115171A0C11CC00F94C43 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DE9BEDF1A15201D00439AB1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		3DFA31801A1089FC00A60CF9 /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TweetCell.swift; path = Views/Cells/TweetCell.swift; sourceTree = "<group>"; };
-		3DFA31821A109BF800A60CF9 /* Stylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stylesheet.swift; path = Others/Stylesheet.swift; sourceTree = "<group>"; };
-		3DFA31841A109DD200A60CF9 /* TWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TWNavigationController.swift; path = Others/TWNavigationController.swift; sourceTree = "<group>"; };
-		3DFA31861A109E1F00A60CF9 /* TWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TWViewController.swift; path = Others/TWViewController.swift; sourceTree = "<group>"; };
-		3DFA31891A10A1F700A60CF9 /* streamline-24px.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "streamline-24px.ttf"; sourceTree = "<group>"; };
-		B64AD42CA342B5FCF7CA8A9E /* libPods-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D056C7C19A7881100902567 /* VIPERProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIPERProtocols.swift; sourceTree = "<group>"; };
+		B749E1CA001F227ABD51B588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		B749E5AD88942EB96F1BF056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B749E8E7BDEC9D7FB43DCCCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B749E942B2202F34F1367244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B749EA23C32AF122803CC13F /* VIPERGenDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERGenDemoTests.swift; sourceTree = "<group>"; };
+		B749EA3AB3A2A76ABF088898 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B749EADCA40A6311ACCEA5DD /* VIPERGenDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERGenDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B749EE253B94F02DC93A0130 /* VIPERGenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERGenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B749EEC0EE96E7878C16C7D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,14 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DB776E81A0C133A00114CD3 /* CoreData.framework in Frameworks */,
-				3D2635741A11368000EC40F3 /* Haneke.framework in Frameworks */,
-				3D6D4C141A0F912700B9125C /* Accounts.framework in Frameworks */,
-				3D6D4C121A0F912000B9125C /* Social.framework in Frameworks */,
-				3DBE4D091A0F8011002ED525 /* SwifteriOS.framework in Frameworks */,
-				3D95C75D1A0C2EF100F08E39 /* AVFoundation.framework in Frameworks */,
-				3DB776EA1A0C134000114CD3 /* Foundation.framework in Frameworks */,
-				B703478269277AEC17547CCE /* libPods-app.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,464 +56,212 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04F868F3F6AF220DF15CF13E /* Pods */ = {
+		3D056C4B19A7847D00902567 /* templates */ = {
 			isa = PBXGroup;
 			children = (
-				3D9C7ADF1A0F81E600A37501 /* Pods-app.debug.xcconfig */,
-				3D9C7AE01A0F81E600A37501 /* Pods-app.release.xcconfig */,
+				3D056C4C19A7847D00902567 /* default */,
+				3D056C6519A7847D00902567 /* fetchedresults */,
 			);
-			name = Pods;
+			name = templates;
+			path = ../../lib/templates;
 			sourceTree = "<group>";
 		};
-		3D23E2AD1A0F6A2700C9C1CA /* Others */ = {
+		3D056C4C19A7847D00902567 /* default */ = {
 			isa = PBXGroup;
 			children = (
-				3D23E2AE1A0F6A5800C9C1CA /* String+Extras.swift */,
-				3DFA31821A109BF800A60CF9 /* Stylesheet.swift */,
-				3DFA31841A109DD200A60CF9 /* TWNavigationController.swift */,
-				3DFA31861A109E1F00A60CF9 /* TWViewController.swift */,
+				3D056C5E19A7847D00902567 /* swift */,
 			);
-			name = Others;
+			path = default;
 			sourceTree = "<group>";
 		};
-		3D2635631A11367400EC40F3 /* Products */ = {
+		3D056C5E19A7847D00902567 /* swift */ = {
 			isa = PBXGroup;
 			children = (
-				3D26356A1A11367400EC40F3 /* Haneke.framework */,
-				3D26356C1A11367400EC40F3 /* HanekeTests.xctest */,
-				3D26356E1A11367400EC40F3 /* HanekeDemo.app */,
+				3D056C5F19A7847D00902567 /* DataManager */,
+				3D056C6019A7847D00902567 /* Interactor */,
+				3D056C6119A7847D00902567 /* Presenter */,
+				3D056C6219A7847D00902567 /* Protocols */,
+				3D056C6319A7847D00902567 /* ViewController */,
+				3D056C6419A7847D00902567 /* WireFrame */,
 			);
-			name = Products;
+			path = swift;
 			sourceTree = "<group>";
 		};
-		3D66A01F1A10AA1C009484AA /* AccountManager */ = {
+		3D056C5F19A7847D00902567 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
-				3D66A0231A10AA45009484AA /* TwitterAccountManager.swift */,
-				3D64BB0B1A12B0E50001D665 /* TwitterAccountManagerProtocol.swift */,
-			);
-			path = AccountManager;
-			sourceTree = "<group>";
-		};
-		3D66A0201A10AA1C009484AA /* APIClient */ = {
-			isa = PBXGroup;
-			children = (
-				3D66A0211A10AA1C009484AA /* TwitterClient.swift */,
-			);
-			path = APIClient;
-			sourceTree = "<group>";
-		};
-		3D95C75E1A0C306600F08E39 /* Videos */ = {
-			isa = PBXGroup;
-			children = (
-				3D95C7611A0C310600F08E39 /* video.mp4 */,
-			);
-			path = Videos;
-			sourceTree = "<group>";
-		};
-		3DAEB0441A0C4A6E00AC1184 /* ProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				3DAEB0451A0C4A6E00AC1184 /* ProgressHUD.bundle */,
-				3DAEB0461A0C4A6E00AC1184 /* ProgressHUD.h */,
-				3DAEB0471A0C4A6E00AC1184 /* ProgressHUD.m */,
-			);
-			path = ProgressHUD;
-			sourceTree = "<group>";
-		};
-		3DB7761D1A0C12FD00114CD3 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				3D2635621A11367400EC40F3 /* Haneke.xcodeproj */,
-				3DBE4CF71A0F8004002ED525 /* Swifter.xcodeproj */,
-				3DAEB0441A0C4A6E00AC1184 /* ProgressHUD */,
-				3DB776B21A0C132400114CD3 /* SugarRecord */,
-			);
-			path = Libraries;
-			sourceTree = "<group>";
-		};
-		3DB776B21A0C132400114CD3 /* SugarRecord */ = {
-			isa = PBXGroup;
-			children = (
-				3DB776B31A0C132400114CD3 /* Core */,
-				3DB776BB1A0C132400114CD3 /* CoreData */,
-			);
-			name = SugarRecord;
-			path = sugarrecord/SugarRecord;
-			sourceTree = "<group>";
-		};
-		3DB776B31A0C132400114CD3 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				3DB776B41A0C132400114CD3 /* Protocols */,
-				3DB776B81A0C132400114CD3 /* SugarRecord.swift */,
-				3DB776B91A0C132400114CD3 /* SugarRecordFinder.swift */,
-				3DB776BA1A0C132400114CD3 /* SugarRecordLogger.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		3DB776B41A0C132400114CD3 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				3DB776B51A0C132400114CD3 /* SugarRecordContextProtocol.swift */,
-				3DB776B61A0C132400114CD3 /* SugarRecordObjectProtocol.swift */,
-				3DB776B71A0C132400114CD3 /* SugarRecordStackProtocol.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		3DB776BB1A0C132400114CD3 /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				3DB776BC1A0C132400114CD3 /* DefaultCDStack.swift */,
-				3DB776BD1A0C132400114CD3 /* iCloudCDStack.swift */,
-				3DB776BE1A0C132400114CD3 /* NSManagedObject+SugarRecord.swift */,
-				3DB776C01A0C132400114CD3 /* SugarRecordCDContext.swift */,
-				3DB776C11A0C132400114CD3 /* SugarRecordFinder+FetchedResultsController.swift */,
-			);
-			path = CoreData;
-			sourceTree = "<group>";
-		};
-		3DB776EB1A0C137800114CD3 /* DataModel */ = {
-			isa = PBXGroup;
-			children = (
-				3D12551B1A1440D800AB6B6F /* Model.xcdatamodeld */,
-				3DB126671A14AE8A00C5E9D2 /* Tweet.swift */,
-			);
-			name = DataModel;
-			sourceTree = "<group>";
-		};
-		3DB777251A0C154800114CD3 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				3DB777261A0C154800114CD3 /* TwitterList */,
-				3DB777371A0C154800114CD3 /* TwitterLogin */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		3DB777261A0C154800114CD3 /* TwitterList */ = {
-			isa = PBXGroup;
-			children = (
-				3DB777271A0C154800114CD3 /* DataManager */,
-				3DB7772C1A0C154800114CD3 /* Interactor */,
-				3DB7772F1A0C154800114CD3 /* Presenter */,
-				3DB777311A0C154800114CD3 /* Protocols */,
-				3DB777331A0C154800114CD3 /* View */,
-				3DB777351A0C154800114CD3 /* WireFrame */,
-			);
-			path = TwitterList;
-			sourceTree = "<group>";
-		};
-		3DB777271A0C154800114CD3 /* DataManager */ = {
-			isa = PBXGroup;
-			children = (
-				3DB777281A0C154800114CD3 /* API */,
-				3DB7772A1A0C154800114CD3 /* Local */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
 		};
-		3DB777281A0C154800114CD3 /* API */ = {
+		3D056C6019A7847D00902567 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				3DB777291A0C154800114CD3 /* TwitterListAPIDataManager.swift */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		3DB7772A1A0C154800114CD3 /* Local */ = {
-			isa = PBXGroup;
-			children = (
-				3DB7772B1A0C154800114CD3 /* TwitterListLocalDataManager.swift */,
-			);
-			path = Local;
-			sourceTree = "<group>";
-		};
-		3DB7772C1A0C154800114CD3 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				3DB7772D1A0C154800114CD3 /* TwitterListInteractor.swift */,
-				3DB7772E1A0C154800114CD3 /* TwitterListItem.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
 		};
-		3DB7772F1A0C154800114CD3 /* Presenter */ = {
+		3D056C6119A7847D00902567 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				3DB777301A0C154800114CD3 /* TwitterListPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		3DB777311A0C154800114CD3 /* Protocols */ = {
+		3D056C6219A7847D00902567 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				3DB777321A0C154800114CD3 /* TwitterListProtocols.swift */,
+				3D056C7C19A7881100902567 /* VIPERProtocols.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		3DB777331A0C154800114CD3 /* View */ = {
+		3D056C6319A7847D00902567 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3DB777341A0C154800114CD3 /* TwitterListView.swift */,
 			);
-			path = View;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
-		3DB777351A0C154800114CD3 /* WireFrame */ = {
+		3D056C6419A7847D00902567 /* WireFrame */ = {
 			isa = PBXGroup;
 			children = (
-				3DB777361A0C154800114CD3 /* TwitterListWireFrame.swift */,
 			);
 			path = WireFrame;
 			sourceTree = "<group>";
 		};
-		3DB777371A0C154800114CD3 /* TwitterLogin */ = {
+		3D056C6519A7847D00902567 /* fetchedresults */ = {
 			isa = PBXGroup;
 			children = (
-				3DB777381A0C154800114CD3 /* DataManager */,
-				3DB7773D1A0C154800114CD3 /* Interactor */,
-				3DB777401A0C154800114CD3 /* Presenter */,
-				3DB777421A0C154800114CD3 /* Protocols */,
-				3DB777441A0C154800114CD3 /* View */,
-				3DB777461A0C154800114CD3 /* WireFrame */,
+				3D056C6619A7847D00902567 /* objc */,
+				3D056C6D19A7847D00902567 /* swift */,
 			);
-			path = TwitterLogin;
+			path = fetchedresults;
 			sourceTree = "<group>";
 		};
-		3DB777381A0C154800114CD3 /* DataManager */ = {
+		3D056C6619A7847D00902567 /* objc */ = {
 			isa = PBXGroup;
 			children = (
-				3DB777391A0C154800114CD3 /* API */,
-				3DB7773B1A0C154800114CD3 /* Local */,
+				3D056C6719A7847D00902567 /* DataManager */,
+				3D056C6819A7847D00902567 /* Interactor */,
+				3D056C6919A7847D00902567 /* Presenter */,
+				3D056C6A19A7847D00902567 /* Protocols */,
+				3D056C6B19A7847D00902567 /* ViewController */,
+				3D056C6C19A7847D00902567 /* WireFrame */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		3D056C6719A7847D00902567 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = DataManager;
 			sourceTree = "<group>";
 		};
-		3DB777391A0C154800114CD3 /* API */ = {
+		3D056C6819A7847D00902567 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				3DB7773A1A0C154800114CD3 /* TwitterLoginAPIDataManager.swift */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		3DB7773B1A0C154800114CD3 /* Local */ = {
-			isa = PBXGroup;
-			children = (
-				3DB7773C1A0C154800114CD3 /* TwitterLoginLocalDataManager.swift */,
-			);
-			path = Local;
-			sourceTree = "<group>";
-		};
-		3DB7773D1A0C154800114CD3 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				3D64BB011A12AE990001D665 /* TwitterLoginItem.swift */,
-				3DB7773E1A0C154800114CD3 /* TwitterLoginInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
 		};
-		3DB777401A0C154800114CD3 /* Presenter */ = {
+		3D056C6919A7847D00902567 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				3DB777411A0C154800114CD3 /* TwitterLoginPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		3DB777421A0C154800114CD3 /* Protocols */ = {
+		3D056C6A19A7847D00902567 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				3DB777431A0C154800114CD3 /* TwitterLoginProtocols.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		3DB777441A0C154800114CD3 /* View */ = {
+		3D056C6B19A7847D00902567 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3DB777451A0C154800114CD3 /* TwitterLoginView.swift */,
 			);
-			path = View;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
-		3DB777461A0C154800114CD3 /* WireFrame */ = {
+		3D056C6C19A7847D00902567 /* WireFrame */ = {
 			isa = PBXGroup;
 			children = (
-				3DB777471A0C154800114CD3 /* TwitterLoginWireFrame.swift */,
 			);
 			path = WireFrame;
 			sourceTree = "<group>";
 		};
-		3DB777481A0C154800114CD3 /* Vendor */ = {
+		3D056C6D19A7847D00902567 /* swift */ = {
 			isa = PBXGroup;
 			children = (
-				3DE9BEDF1A15201D00439AB1 /* Constants.swift */,
-				3D6665791A12CD260012B6DD /* LocalServices.swift */,
-				3D66A01F1A10AA1C009484AA /* AccountManager */,
-				3D66A0201A10AA1C009484AA /* APIClient */,
-				3D23E2AD1A0F6A2700C9C1CA /* Others */,
+				3D056C6E19A7847D00902567 /* DataManager */,
+				3D056C6F19A7847D00902567 /* Interactor */,
+				3D056C7019A7847D00902567 /* Presenter */,
+				3D056C7119A7847D00902567 /* Protocols */,
+				3D056C7219A7847D00902567 /* ViewController */,
+				3D056C7319A7847D00902567 /* WireFrame */,
 			);
-			path = Vendor;
+			path = swift;
 			sourceTree = "<group>";
 		};
-		3DB7775B1A0C15BB00114CD3 /* Controllers */ = {
+		3D056C6E19A7847D00902567 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
-				3DB7775C1A0C15BB00114CD3 /* TwitterList */,
-				3DB7775D1A0C15BB00114CD3 /* TwitterLogin */,
 			);
-			path = Controllers;
+			path = DataManager;
 			sourceTree = "<group>";
 		};
-		3DB7775C1A0C15BB00114CD3 /* TwitterList */ = {
+		3D056C6F19A7847D00902567 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = TwitterList;
+			path = Interactor;
 			sourceTree = "<group>";
 		};
-		3DB7775D1A0C15BB00114CD3 /* TwitterLogin */ = {
+		3D056C7019A7847D00902567 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = TwitterLogin;
+			path = Presenter;
 			sourceTree = "<group>";
 		};
-		3DB7775E1A0C15BB00114CD3 /* Vendor */ = {
+		3D056C7119A7847D00902567 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				3DB777601A0C15BB00114CD3 /* APIClient */,
 			);
-			path = Vendor;
+			path = Protocols;
 			sourceTree = "<group>";
 		};
-		3DB777601A0C15BB00114CD3 /* APIClient */ = {
+		3D056C7219A7847D00902567 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = APIClient;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
-		3DBE4CF81A0F8004002ED525 /* Products */ = {
+		3D056C7319A7847D00902567 /* WireFrame */ = {
 			isa = PBXGroup;
 			children = (
-				3DBE4D001A0F8005002ED525 /* SwifterDemoiOS.app */,
-				3DBE4D021A0F8005002ED525 /* SwifteriOS.framework */,
-				3DBE4D041A0F8005002ED525 /* SwifterMac.framework */,
-				3DBE4D061A0F8005002ED525 /* SwifterDemoMac.app */,
-				3DBE4D081A0F8005002ED525 /* SwifterDemoMacTests.xctest */,
 			);
-			name = Products;
+			path = WireFrame;
 			sourceTree = "<group>";
 		};
-		3DE1150D1A0C11CC00F94C43 /* Application */ = {
+		B749E32E9C203B07FC6A4207 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3DE1150E1A0C11CC00F94C43 /* AppDelegate.swift */,
-				3DB777211A0C151500114CD3 /* VIPERGenDemo-Bridging-Header.h */,
+				B749E1CA001F227ABD51B588 /* Info.plist */,
 			);
-			path = Application;
-			sourceTree = "<group>";
-		};
-		3DE1150F1A0C11CC00F94C43 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3DFA31881A10A1F700A60CF9 /* Fonts */,
-				3D95C75E1A0C306600F08E39 /* Videos */,
-				3DB776EB1A0C137800114CD3 /* DataModel */,
-				3DE115101A0C11CC00F94C43 /* Images */,
-				3DE115121A0C11CC00F94C43 /* XIBs */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		3DE115101A0C11CC00F94C43 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				3D95C7631A0C387B00F08E39 /* twitter_logo.png */,
-				3D95C75A1A0C27D800F08E39 /* login_background.jpg */,
-				3DE115111A0C11CC00F94C43 /* Images.xcassets */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
-		3DE115121A0C11CC00F94C43 /* XIBs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = XIBs;
-			sourceTree = "<group>";
-		};
-		3DE115141A0C11CC00F94C43 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				3DFA31791A1089C600A60CF9 /* Views */,
-				3DB777251A0C154800114CD3 /* Controllers */,
-				3DB777481A0C154800114CD3 /* Vendor */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		3DE115161A0C11CC00F94C43 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3DE115171A0C11CC00F94C43 /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3DFA31791A1089C600A60CF9 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3DFA317F1A1089CC00A60CF9 /* Cells */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		3DFA317F1A1089CC00A60CF9 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				3DFA31801A1089FC00A60CF9 /* TweetCell.swift */,
-			);
-			name = Cells;
-			sourceTree = "<group>";
-		};
-		3DFA31881A10A1F700A60CF9 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				3DFA31891A10A1F700A60CF9 /* streamline-24px.ttf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		77E8979B9ED53D41DBD0D02E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3D6D4C131A0F912700B9125C /* Accounts.framework */,
-				3D6D4C111A0F912000B9125C /* Social.framework */,
-				3D95C75C1A0C2EF100F08E39 /* AVFoundation.framework */,
-				3DB777671A0C17C200114CD3 /* libPods.a */,
-				3DB776E91A0C134000114CD3 /* Foundation.framework */,
-				3DB776E71A0C133A00114CD3 /* CoreData.framework */,
-				1F3D928AB04B0148F550DDAD /* libPods.a */,
-				B64AD42CA342B5FCF7CA8A9E /* libPods-app.a */,
-			);
-			name = Frameworks;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B749E680F29C59970636F2CA /* VIPERGenDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				3DB7775B1A0C15BB00114CD3 /* Controllers */,
-				3DB7775E1A0C15BB00114CD3 /* Vendor */,
 				B749EAB36DAB99247DD084F3 /* Supporting Files */,
+				B749EA23C32AF122803CC13F /* VIPERGenDemoTests.swift */,
 			);
 			path = VIPERGenDemoTests;
 			sourceTree = "<group>";
@@ -706,11 +286,12 @@
 		B749ECADDB5E74D695C3826A /* VIPERGenDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3DB7761D1A0C12FD00114CD3 /* Libraries */,
-				3DE1150D1A0C11CC00F94C43 /* Application */,
-				3DE1150F1A0C11CC00F94C43 /* Resources */,
-				3DE115141A0C11CC00F94C43 /* Shared */,
-				3DE115161A0C11CC00F94C43 /* Supporting Files */,
+				3D056C4B19A7847D00902567 /* templates */,
+				B749E32E9C203B07FC6A4207 /* Supporting Files */,
+				B749EA3AB3A2A76ABF088898 /* Images.xcassets */,
+				B749EEC0EE96E7878C16C7D3 /* AppDelegate.swift */,
+				B749E008AA7BF4ECBADA4151 /* Main.storyboard */,
+				B749E8E7BDEC9D7FB43DCCCD /* ViewController.swift */,
 			);
 			path = VIPERGenDemo;
 			sourceTree = "<group>";
@@ -721,8 +302,6 @@
 				B749EB4BF49E039BCCBA554A /* Products */,
 				B749ECADDB5E74D695C3826A /* VIPERGenDemo */,
 				B749E680F29C59970636F2CA /* VIPERGenDemoTests */,
-				04F868F3F6AF220DF15CF13E /* Pods */,
-				77E8979B9ED53D41DBD0D02E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -751,11 +330,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B749EF3BAE8B9CAA3966C704 /* Build configuration list for PBXNativeTarget "VIPERGenDemo" */;
 			buildPhases = (
-				BD9CFCE7E7C5D34E96942DC3 /* Check Pods Manifest.lock */,
 				B749E8C31E6F7F2D1C236F75 /* Sources */,
 				B749E0FB5CB3403F02EBC79B /* Frameworks */,
 				B749EB8DF13C1F0E8E74CE8D /* Resources */,
-				772ACBC517C8F1DFE9240DB2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -772,8 +349,7 @@
 		B749E8B9F6CA030919C0FE23 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "AUTHOR";
+				ORGANIZATIONNAME = "___Redbooth___";
 			};
 			buildConfigurationList = B749E661FB627E9A7790FD49 /* Build configuration list for PBXProject "VIPERGenDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -781,21 +357,10 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = B749ED56028C113961A0F426;
 			productRefGroup = B749EB4BF49E039BCCBA554A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 3D2635631A11367400EC40F3 /* Products */;
-					ProjectRef = 3D2635621A11367400EC40F3 /* Haneke.xcodeproj */;
-				},
-				{
-					ProductGroup = 3DBE4CF81A0F8004002ED525 /* Products */;
-					ProjectRef = 3DBE4CF71A0F8004002ED525 /* Swifter.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				B749EFEA5470B339B4787798 /* VIPERGenDemo */,
@@ -803,65 +368,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		3D26356A1A11367400EC40F3 /* Haneke.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Haneke.framework;
-			remoteRef = 3D2635691A11367400EC40F3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3D26356C1A11367400EC40F3 /* HanekeTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = HanekeTests.xctest;
-			remoteRef = 3D26356B1A11367400EC40F3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3D26356E1A11367400EC40F3 /* HanekeDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = HanekeDemo.app;
-			remoteRef = 3D26356D1A11367400EC40F3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3DBE4D001A0F8005002ED525 /* SwifterDemoiOS.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SwifterDemoiOS.app;
-			remoteRef = 3DBE4CFF1A0F8005002ED525 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3DBE4D021A0F8005002ED525 /* SwifteriOS.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwifteriOS.framework;
-			remoteRef = 3DBE4D011A0F8005002ED525 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3DBE4D041A0F8005002ED525 /* SwifterMac.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwifterMac.framework;
-			remoteRef = 3DBE4D031A0F8005002ED525 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3DBE4D061A0F8005002ED525 /* SwifterDemoMac.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SwifterDemoMac.app;
-			remoteRef = 3DBE4D051A0F8005002ED525 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3DBE4D081A0F8005002ED525 /* SwifterDemoMacTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SwifterDemoMacTests.xctest;
-			remoteRef = 3DBE4D071A0F8005002ED525 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B749EA81256137463932A1FE /* Resources */ = {
@@ -875,96 +381,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DE115191A0C11CC00F94C43 /* Images.xcassets in Resources */,
-				3D95C7621A0C310600F08E39 /* video.mp4 in Resources */,
-				3DAEB0481A0C4A6E00AC1184 /* ProgressHUD.bundle in Resources */,
-				3D95C7641A0C387B00F08E39 /* twitter_logo.png in Resources */,
-				3DFA318A1A10A1F700A60CF9 /* streamline-24px.ttf in Resources */,
-				3D95C75B1A0C27D800F08E39 /* login_background.jpg in Resources */,
+				B749E4728976F7088B32116F /* Images.xcassets in Resources */,
+				B749EAC79D1784014A2BDCCB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		772ACBC517C8F1DFE9240DB2 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-app/Pods-app-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BD9CFCE7E7C5D34E96942DC3 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B749E8C31E6F7F2D1C236F75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DB777501A0C154800114CD3 /* TwitterListWireFrame.swift in Sources */,
-				3DB7774B1A0C154800114CD3 /* TwitterListInteractor.swift in Sources */,
-				3DB777511A0C154800114CD3 /* TwitterLoginAPIDataManager.swift in Sources */,
-				3DB776C91A0C132400114CD3 /* SugarRecordObjectProtocol.swift in Sources */,
-				3DB776CD1A0C132400114CD3 /* SugarRecord.swift in Sources */,
-				3D64BB0C1A12B0E50001D665 /* TwitterAccountManagerProtocol.swift in Sources */,
-				3DFA31851A109DD200A60CF9 /* TWNavigationController.swift in Sources */,
-				3DB776CB1A0C132400114CD3 /* SugarRecordStackProtocol.swift in Sources */,
-				3DFA31871A109E1F00A60CF9 /* TWViewController.swift in Sources */,
-				3DB776D11A0C132400114CD3 /* SugarRecordLogger.swift in Sources */,
-				3DB777571A0C154800114CD3 /* TwitterLoginView.swift in Sources */,
-				3D12551D1A1440D800AB6B6F /* Model.xcdatamodeld in Sources */,
-				3DB7774F1A0C154800114CD3 /* TwitterListView.swift in Sources */,
-				3DB776DB1A0C132400114CD3 /* SugarRecordCDContext.swift in Sources */,
-				3D64BB021A12AE990001D665 /* TwitterLoginItem.swift in Sources */,
-				3DB777491A0C154800114CD3 /* TwitterListAPIDataManager.swift in Sources */,
-				3DB7774D1A0C154800114CD3 /* TwitterListPresenter.swift in Sources */,
-				3DAEB0491A0C4A6E00AC1184 /* ProgressHUD.m in Sources */,
-				3DB776C71A0C132400114CD3 /* SugarRecordContextProtocol.swift in Sources */,
-				3DFA31811A1089FC00A60CF9 /* TweetCell.swift in Sources */,
-				3DB776CF1A0C132400114CD3 /* SugarRecordFinder.swift in Sources */,
-				3DB777531A0C154800114CD3 /* TwitterLoginInteractor.swift in Sources */,
-				3D23E2AF1A0F6A5800C9C1CA /* String+Extras.swift in Sources */,
-				3DB777581A0C154800114CD3 /* TwitterLoginWireFrame.swift in Sources */,
-				3DE9BEE01A15201D00439AB1 /* Constants.swift in Sources */,
-				3D66657A1A12CD260012B6DD /* LocalServices.swift in Sources */,
-				3DB776D31A0C132400114CD3 /* DefaultCDStack.swift in Sources */,
-				3DB777551A0C154800114CD3 /* TwitterLoginPresenter.swift in Sources */,
-				3D66A0241A10AA45009484AA /* TwitterAccountManager.swift in Sources */,
-				3DE115181A0C11CC00F94C43 /* AppDelegate.swift in Sources */,
-				3DB7774E1A0C154800114CD3 /* TwitterListProtocols.swift in Sources */,
-				3DB776DD1A0C132400114CD3 /* SugarRecordFinder+FetchedResultsController.swift in Sources */,
-				3DB126681A14AE8A00C5E9D2 /* Tweet.swift in Sources */,
-				3DB7774C1A0C154800114CD3 /* TwitterListItem.swift in Sources */,
-				3D66A0221A10AA1C009484AA /* TwitterClient.swift in Sources */,
-				3DB7774A1A0C154800114CD3 /* TwitterListLocalDataManager.swift in Sources */,
-				3DB777521A0C154800114CD3 /* TwitterLoginLocalDataManager.swift in Sources */,
-				3DB776D71A0C132400114CD3 /* NSManagedObject+SugarRecord.swift in Sources */,
-				3DB776D51A0C132400114CD3 /* iCloudCDStack.swift in Sources */,
-				3DFA31831A109BF800A60CF9 /* Stylesheet.swift in Sources */,
-				3DB777561A0C154800114CD3 /* TwitterLoginProtocols.swift in Sources */,
+				B749EBF8B846719B7113AA45 /* AppDelegate.swift in Sources */,
+				B749EDF5EBFE639D631AEC38 /* ViewController.swift in Sources */,
+				3D056C7D19A7881100902567 /* VIPERProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -972,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B749E7DEA40F5EE82C43C1FA /* VIPERGenDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -985,33 +417,31 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		B749E008AA7BF4ECBADA4151 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B749E942B2202F34F1367244 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		B749E100A11901D5AE4EA330 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D9C7ADF1A0F81E600A37501 /* Pods-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/VIPERGenDemo/Libraries/sugarrecord/SugarRecordDemo/SugarRecord",
-				);
-				INFOPLIST_FILE = "VIPERGenDemo/Supporting Files/Info.plist";
+				INFOPLIST_FILE = VIPERGenDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "VIPERGenDemo/Application/VIPERGenDemo-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B749E1DBB8D33E0EA8E8F2F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D9C7AE01A0F81E600A37501 /* Pods-app.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1078,29 +508,17 @@
 		};
 		B749E86A30E7C306090BFB2C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D9C7AE01A0F81E600A37501 /* Pods-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/VIPERGenDemo/Libraries/sugarrecord/SugarRecordDemo/SugarRecord",
-				);
-				INFOPLIST_FILE = "VIPERGenDemo/Supporting Files/Info.plist";
+				INFOPLIST_FILE = VIPERGenDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "VIPERGenDemo/Application/VIPERGenDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		B749EB29682B25CAFCE05595 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D9C7ADF1A0F81E600A37501 /* Pods-app.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1173,20 +591,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3D12551B1A1440D800AB6B6F /* Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3D12551C1A1440D800AB6B6F /* Model.xcdatamodel */,
-			);
-			currentVersion = 3D12551C1A1440D800AB6B6F /* Model.xcdatamodel */;
-			name = Model.xcdatamodeld;
-			path = DataModel/Model.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B749E8B9F6CA030919C0FE23 /* Project object */;
 }

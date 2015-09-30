@@ -1,34 +1,26 @@
 //
-// Created by AUTHOR
-// Copyright (c) YEAR AUTHOR. All rights reserved.
+// Created by Pedro Piñera Buendía on 2014.
+// Copyright (c) 2014 Redbooth. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+@protocol VIPERDataManagerOutputProtocol;
 @protocol VIPERInteractorOutputProtocol;
 @protocol VIPERInteractorInputProtocol;
 @protocol VIPERViewProtocol;
 @protocol VIPERPresenterProtocol;
-@protocol VIPERLocalDataManagerInputProtocol;
-@protocol VIPERAPIDataManagerInputProtocol;
-
-
+@protocol VIPERDataManagerInputProtocol;
 @class VIPERWireFrame;
+
+typedef void (^CompletionBlock)(NSError **error);
 
 @protocol VIPERViewProtocol
 @required
 @property (nonatomic, strong) id <VIPERPresenterProtocol> presenter;
 /**
- * Add here your methods for communication PRESENTER -> VIEWCONTROLLER
- */
-@end
-
-@protocol VIPERWireFrameProtocol
-@required
-+ (void)presentVIPERModuleFrom:(id)fromView;
-/**
- * Add here your methods for communication PRESENTER -> WIREFRAME
+ * Add here your methods for communication VIEWCONTROLLER -> PRESENTER
  */
 @end
 
@@ -36,9 +28,9 @@
 @required
 @property (nonatomic, weak) id <VIPERViewProtocol> view;
 @property (nonatomic, strong) id <VIPERInteractorInputProtocol> interactor;
-@property (nonatomic, strong) id <VIPERWireFrameProtocol> wireFrame;
+@property (nonatomic, strong) VIPERWireFrame *wireFrame;
 /**
- * Add here your methods for communication VIEWCONTROLLER -> PRESENTER
+ * Add here your methods for communication VIEWCONTROLLER/WIREFRAME -> PRESENTER
  */
 @end
 
@@ -51,8 +43,6 @@
 @protocol VIPERInteractorInputProtocol
 @required
 @property (nonatomic, weak) id <VIPERInteractorOutputProtocol> presenter;
-@property (nonatomic, strong) id <VIPERAPIDataManagerInputProtocol> APIDataManager;
-@property (nonatomic, strong) id <VIPERLocalDataManagerInputProtocol> localDataManager;
 /**
  * Add here your methods for communication PRESENTER -> INTERACTOR
  */
@@ -60,21 +50,15 @@
 
 
 @protocol VIPERDataManagerInputProtocol
+@property (nonatomic, weak) id <VIPERDataManagerOutputProtocol> interactor;
 /**
  * Add here your methods for communication INTERACTOR -> DATAMANAGER
  */
 @end
 
-@protocol VIPERAPIDataManagerInputProtocol <VIPERDataManagerInputProtocol>
+@protocol VIPERDataManagerOutputProtocol
+@property (nonatomic, strong) id <VIPERDataManagerInputProtocol> dataManager;
 /**
- * Add here your methods for communication INTERACTOR -> APIDATAMANAGER
+ * Add here your methods for communication DATAMANAGER -> INTERACTOR
  */
 @end
-
-@protocol VIPERLocalDataManagerInputProtocol <VIPERDataManagerInputProtocol>
-/**
- * Add here your methods for communication INTERACTOR -> LOCLDATAMANAGER
- */
-@end
-
-

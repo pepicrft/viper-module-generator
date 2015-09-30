@@ -4,7 +4,7 @@ module Vipergen
 
 		# Returns the templates dir
 	    def self.templates_dir
-	      t = "#{File.expand_path File.dirname(__FILE__)}/../templates"
+	      t = "#{Gem.dir}/gems/#{Vipergen::NAME}-#{Vipergen::VERSION}/lib/templates"
 	    end
 
 		# Get the available templates paths
