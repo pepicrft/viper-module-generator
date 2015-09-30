@@ -51,12 +51,15 @@ The implementation scheme returned by this generator is hardly inspired in the e
 +-- Interactor
 |   +-- VIPERInteractor.h
 |   +-- VIPERInteractor.m
+|   +-- VIPERInteractorSpec.m
 +-- Presenter
 |   +-- VIPERPresenter.h
 |   +-- VIPERPresenter.m
+|   +-- VIPERPresenterSpec.m
 +-- ViewController
 |   +-- VIPERViewController.h
 |   +-- VIPERViewController.m
+|   +-- VIPERViewControllerSpec.m
 +-- WireFrame
 |   +-- VIPERWireFrame.h
 |   +-- VIPERWireFrame.m
@@ -67,10 +70,13 @@ The implementation scheme returned by this generator is hardly inspired in the e
 |   +-- VIPERDataManager.swift
 +-- Interactor
 |   +-- VIPERInteractor.swift
+|   +-- VIPERInteractorSpec.swift
 +-- Presenter
 |   +-- VIPERPresenter.swift
-+-- ViewController
-|   +-- VIPERViewController.swift
+|   +-- VIPERPresenterSpec.swift
++-- View
+|   +-- VIPERView.swift
+|   +-- VIPERViewSpec.swift
 +-- WireFrame
 |   +-- VIPERWireFrame.swift
 +-- Protocols
@@ -79,7 +85,7 @@ The implementation scheme returned by this generator is hardly inspired in the e
 ## How to install vipergen ?
 You can install it easily as using the gem. With ruby installed in your OSX execute:
 ```bash
-sudo gem install vipergen
+sudo gem install vipergen-roche
 ```
 If everything were right, you should have now the vipergem command available in your system console
 
@@ -89,6 +95,18 @@ You have just to execute the following command
 vipergen generate MyFirstViperModule --path=~/myproject/shared
 ```
 And then the files structure will be automatically created. Don't forget to add this folder to your project dragging it into the XCode/Appcode inspector
+
+## What options are available in generator?
+You have just to execute the following command
+```bash
+vipergen help generate
+```
+And then you will see all options available
+
+Sample:
+```bash
+vipergen generate <Module_Name> --path=<Path> --language=swift --author='michal' --template=testable --swift-module <MY_Project>
+```
 
 ## How can I try the demo project?
 
@@ -123,7 +141,12 @@ updated_at: 2014-08-24
 ```
 - Report it as a PR in this repo updating the gem version in Gemspec.
 
+### Available Templates
+- default by pepimbur
+- testable by wojtysim (includes Spec file templates for Interactor, Presenter and View)
+
 ## Resources
+- Redbooth presentation: https://speakerdeck.com/sergigracia/clean-architecture-viper
 - Rspec documentation: http://rubydoc.info/gems/rspec-expectations/frames
 - XCode Plugins: http://nshipster.com/xcode-plugins/
 - XCodeProj gem (to modify project groups structure): https://github.com/CocoaPods/Xcodeproj
