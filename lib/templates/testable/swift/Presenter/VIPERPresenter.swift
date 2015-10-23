@@ -5,7 +5,7 @@
 
 import Foundation
 
-class VIPERPresenter: VIPERPresenterProtocol, VIPERInteractorOutputProtocol
+final class VIPERPresenter: VIPERPresenterProtocol, VIPERInteractorOutputProtocol
 {
     weak var view: VIPERViewProtocol?
     var interactor: VIPERInteractorInputProtocol?

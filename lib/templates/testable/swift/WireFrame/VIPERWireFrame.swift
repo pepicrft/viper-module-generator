@@ -4,10 +4,10 @@
 //
 
 import Foundation
-
-class VIPERWireFrame: VIPERWireFrameProtocol
+import UIKit
+final class VIPERWireFrame: VIPERWireFrameProtocol
 {
-    class func presentVIPERModule(fromView view: AnyObject)
+    class func setupVIPERModule(object: AnyObject) -> UIViewController
     {
         // Generating module components
         let view: VIPERViewProtocol = VIPERView()
@@ -24,6 +24,8 @@ class VIPERWireFrame: VIPERWireFrameProtocol
         presenter.interactor = interactor
         interactor.presenter = presenter
         interactor.APIDataManager = APIDataManager
-        interactor.localDatamanager = localDataManager
+        interactor.localDataManager = localDataManager
+        
+        return UINavigationController(rootViewController: view as! UIViewController)
     }
 }

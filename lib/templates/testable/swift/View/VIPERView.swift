@@ -6,7 +6,7 @@
 import Foundation
 import UIKit
 
-class VIPERView: UIViewController, VIPERViewProtocol
+final class VIPERView: UIViewController, VIPERViewProtocol
 {
     var presenter: VIPERPresenterProtocol?
 }

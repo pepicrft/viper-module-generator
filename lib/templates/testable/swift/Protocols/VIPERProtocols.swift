@@ -15,7 +15,7 @@ protocol VIPERViewProtocol: class
 
 protocol VIPERWireFrameProtocol: class
 {
-    static func presentVIPERModule(fromView view: AnyObject)
+    static func setupVIPERModule(object: AnyObject) -> UIViewController
     /**
     * Add here your methods for communication PRESENTER -> WIREFRAME
     */
@@ -42,7 +42,7 @@ protocol VIPERInteractorInputProtocol: class
 {
     var presenter: VIPERInteractorOutputProtocol? { get set }
     var APIDataManager: VIPERAPIDataManagerInputProtocol? { get set }
-    var localDatamanager: VIPERLocalDataManagerInputProtocol? { get set }
+    var localDataManager: VIPERLocalDataManagerInputProtocol? { get set }
     /**
     * Add here your methods for communication PRESENTER -> INTERACTOR
     */
